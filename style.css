@@ -11,8 +11,9 @@ body {
 }
 #a, a {
   margin-left: 125px;
-  margin-top: 46px;
-  font-size: 20px ;
+  margin-top: 70px;
+  font-size: 100px;
+ 
 }
 input {
   margin-left: 110px;
@@ -62,71 +63,50 @@ margin: auto;
   display: block;
 
 }
-
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-.main {
-  display: flex;
-  color: white;
-  text-decoration: none;
-  height: 10vh;
-}
-a {
-  margin-left: 125px;
-  margin-top: 46px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
-input {
-  margin-left: 110px;
-  height: 23px;
-  width: 300px;
-  margin-top: 36px;
-  font-size: 15px;
-  font-weight: 400;
-  border: none;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-.dropbtn {
-  background: transparent !important;
-  color: white;
-  font-size: 20px;
-  width: 150px;
-  border: none;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: 100px;
-  margin-top: 46px;
-  font-size: 20px;
-}
-.dropdown-content {
+.modal {
   display: none;
-  position: absolute;
-  min-width: 160px;
-  background-color: rgba(24,24,24,0.8);
-}
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Background Blur Effect */
-#overlay {
   position: fixed;
+  left: 0;
   width: 100%;
   height: 100%;
   backdrop-filter: blur(5px);
 }
+.modal-contents {
+  background:teal;
+  width: 350px;
+  height: 500px;
+  margin: 10% auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+label{
+  justify-content: flex-start;
+    display: flex;
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+}
+form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+button:hover {
+  background: #218838;
+}
+
+
 
