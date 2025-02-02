@@ -28,7 +28,7 @@ input {
 
 }
 .dropbtn {
-  background: transparent !important; 
+  background: transparent; 
   color: white;
   font-size: 20px; 
   width: 150px;
